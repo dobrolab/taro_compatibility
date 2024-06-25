@@ -39,9 +39,9 @@
 
 				<div class="row g-4 mb-4">
 
-					<div class="col-lg-6 mb-2">
+					<div class="col-lg-4 mb-2">
 						<h6>Выберите дату рождения Персоны 1:</h6>
-						<div class="d-flex">
+						<div class="d-flex mb-3">
 							<div class="inputWrapper">
 									<label>День</label><br>
 									<input class="form-input" id="birthdate1" type="number" min="1" max="31" step="1" value="1">
@@ -56,11 +56,17 @@
 							</div>
 						</div>
 
-					</div>
+						<div class="inputWrapper">
+								<label>Имя 1</label><br>
+								<input class="form-input w-100" id="persona1" type="text" />
+						</div>
 
-					<div class="col-lg-6 mb-2">
+					</div>
+					<div class="col-lg-2"></div>
+
+					<div class="col-lg-4 mb-2">
 						<h6>Выберите дату рождения Персоны 2:</h6>
-						<div class="d-flex">
+						<div class="d-flex mb-3">
 							<div class="inputWrapper">
 									<label>День</label><br>
 									<input class="form-input" id="birthdate2" type="number" min="1" max="31" step="1" value="1">
@@ -76,7 +82,13 @@
 
 						</div>
 
+						<div class="inputWrapper">
+								<label>Имя 2</label><br>
+								<input class="form-input w-100" id="persona2" type="text" />
+						</div>
+
 					</div>
+					<div class="col-lg-2"></div>
 
 					<div class="col-lg-6 text-center offset-lg-3">
 						<button class="calculate " onclick="calculateSum()">Рассчитать совместимость
@@ -101,7 +113,7 @@
 							<div class="mscale">
 								<div class="astar">
 
-									<h2>Персона 1</h2>
+									<h2 id="name1">Персона 1</h2>
 
 									<img src="img/level_01.svg" alt="">
 
@@ -199,7 +211,7 @@
 							<div class="mscale">
 								<div class="astar">
 
-									<h2>Персона 2</h2>
+									<h2 id="name2">Персона 2</h2>
 
 									<img src="img/level_02.svg" alt="">
 

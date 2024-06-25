@@ -390,3 +390,19 @@ function convertToSub(card) {
 	return SubNumerals[card];
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+	const inputField1 = document.getElementById('persona1');
+	const resultField1 = document.getElementById('name1');
+
+	inputField1.addEventListener('input', function() {
+		resultField1.textContent = this.value;
+	});
+
+	const inputField2 = document.getElementById('persona2');
+	const resultField2 = document.getElementById('name2');
+
+	inputField2.addEventListener('input', function() {
+		resultField2.textContent = this.value;
+	});
+
+});
