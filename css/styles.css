@@ -221,7 +221,7 @@ section {
 }
 
 .astar_compatability .tcard#r05 {
-  top: 230px;
+  top: 340px;
 }
 .astar_compatability .bg-sun {
   padding-top: 90px;
@@ -409,5 +409,8 @@ section {
   .tcard#r12 {
     left: 60px;
     top: 30px;
+  }
+  .astar_compatability .tcard#r05 {
+    top: 220px;
   }
 }/*# sourceMappingURL=styles.css.map */
