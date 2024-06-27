@@ -53,6 +53,14 @@ section {
   margin-top: 60px;
 }
 
+footer {
+  background-color: #2e1116;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 #level_01 h2 {
   font-size: 20px;
 }
