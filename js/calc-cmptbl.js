@@ -390,19 +390,26 @@ function convertToSub(card) {
 	return SubNumerals[card];
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-	const inputField1 = document.getElementById('persona1');
-	const resultField1 = document.getElementById('name1');
+// document.addEventListener('DOMContentLoaded', function() {
 
-	inputField1.addEventListener('input', function() {
-		resultField1.textContent = this.value;
-	});
+// 	const inputField1 = document.getElementById('persona1');
+// 	const resultField1 = document.getElementById('name1');
+// 	const resultName1 = document.getElementById('resultname1');
 
-	const inputField2 = document.getElementById('persona2');
-	const resultField2 = document.getElementById('name2');
+// 	inputField1.addEventListener('input', function() {
+// 		resultField1.textContent = this.value;
+// 		resultName1.textContent = this.value;
+// 	});
 
-	inputField2.addEventListener('input', function() {
-		resultField2.textContent = this.value;
-	});
+// 	const inputField2 = document.getElementById('persona2');
+// 	const resultField2 = document.getElementById('name2');
+// 	const resultName2 = document.getElementById('resultname2');
 
-});
+// 	inputField2.addEventListener('input', function() {
+// 		resultField2.textContent = this.value;
+// 		resultName2.textContent = ' и ' + this.value;
+// 	});
+
+
+
+// });

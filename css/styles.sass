@@ -17,6 +17,7 @@ body
 	color: $c9
 	padding-top: 76px
 	min-width: 360px
+	overflow-x: hidden
 
 	h1, h2, h3
 		color: #C7AB77
@@ -49,7 +50,10 @@ main
 section
 	margin-top: 60px
 
-#dainput
+#level_01 h2
+	font-size: 20px
+
+.dainput
 	padding-top: 60px
 	padding-bottom: 60px
 	h5
@@ -64,17 +68,17 @@ section
 	label
 		margin-bottom: 5px
 	select, input
-		font-size: 20px
-		padding: 15px 20px
+		font-size: 18px
+		padding: 10px 15px
 		background-color: #743944
 		border: 1px solid $c1
 		// border-image: linear-gradient(135deg,#f9c667 0%,#f79621 100%) 1
 		border-radius: 15px
 
-		margin-right: 15px
+		margin-right: 5px
 		color: #fff
 	input
-		padding: 14px 20px
+		padding: 10px 15px
 		width: 110px
 
 	.calculate
@@ -93,22 +97,30 @@ section
 .astar
 	position: relative
 	display: inline-block
-	width: 700px
-	height: 800px
+	width: 300px
+	height: 600px
+	h2
+		font-size: 20px
 	.tcard
 		position: absolute
 
+.bg-yellow
+	background-color: yellow !important
 
+.bg-sun
+	padding-top: 50px
+	transform: scale(1.1)
 
 .tcard
 	transition: all .1s ease
 	border: 1px solid $c1
-	background-color: #743944
-	backdrop-filter: blur(2px)
-	padding: 5px
+	background-color: #743944ee
+	backdrop-filter: blur(1px)
+	padding: 5px 2px
 	border-radius: 10px
-	width: 60px
+	width: 56px
 	height: 110px
+	//transform: scale(0.5)
 	display: flex
 	flex-direction: column
 	align-items: center
@@ -126,113 +138,206 @@ section
 
 	.ordernumber
 		position: absolute
-		left: 5px
+		left: 4px
 		top: 5px
-		font-size: 10px
+		font-size: 9px
 		color: $c1
 		line-height: 7px
 
 	.romulus
-		font-size: 15px
+		font-size: 12px
 		font-weight: bold
 
 	.rstring
-		font-size: 10px
+		font-size: 12px
 
 	.cimg
-		width: 38px
+		width: 40px
 		height: 65px
 		border-radius: 2px
 
 	&#r01
-		left: 175px
-		top: 260px
-
+		left: 60px
+		top: 160px
 	&#r02
-		left: 330px
-		top: 175px
-
+		left: 120px
+		top: 150px
 	&#r03
-		left: 485px
-		top: 260px
-
+		left: 180px
+		top: 160px
 	&#r04
-		left: 175px
-		top: 420px
-
+		left: 60px
+		top: 280px
 	&#r05
-		left: 330px
-		top: 515px
-
+		left: 120px
+		top: 410px
 	&#r06
-		left: 485px
-		top: 420px
-
+		left: 180px
+		top: 280px
 	&#r07
-		left: 15px
-		top: 510px
-
+		left: 0px
+		top: 310px
 	&#r08
-		left: 625px
-		top: 510px
-
+		left: 240px
+		top: 310px
 	&#r09
-		left: 330px
-		top: 670px
-
+		left: 120px
+		top: 290px
 	&#r10
-		left: 15px
-		top: 145px
-
+		left: 0px
+		top: 85px
 	&#r11
-		left: 625px
-		top: 145px
-
+		left: 240px
+		top: 85px
 	&#r12
-		left: 330px
-		top: 15px
+		left: 120px
+		top: 30px
 
-	&#r13
-		left: 250px
-		top: 210px
-
-	&#r14
-		left: 410px
-		top: 210px
-
-	&#r15
-		left: 330px
-		top: 340px
-
+.astar_compatability
+	.tcard#r05
+		top: 230px
+	.bg-sun
+		padding-top: 90px
 
 .mscale
-	width: 350px
-	height: 400px
-	.astar
-		transform: scale(.7)
-		top: 0
-		left: 0
-		margin: -50%
+	width: 300px
+	height: 600px
 
 .results
-	margin-top: 300px
+		margin-top: 100px
 
+
+/* MD */
+@media (max-width: 991px)
+	.results
+		margin-top: 100px
+	.mscale
+		width: 300px
+		height: 600px
+	.astar
+		width: 300px
+		height: 600px
+
+	.tcard
+		padding: 5px 2px
+		width: 56px
+		height: 110px
+		.ordernumber
+			left: 7px
+			top: 5px
+			font-size: 8px
+		.romulus
+			font-size: 10px
+			font-weight: bold
+		.rstring
+			font-size: 10px
+		.cimg
+			width: 40px
+			height: 65px
+		&#r01
+			left: 60px
+			top: 160px
+		&#r02
+			left: 120px
+			top: 150px
+		&#r03
+			left: 180px
+			top: 160px
+		&#r04
+			left: 60px
+			top: 280px
+		&#r05
+			left: 120px
+			top: 410px
+		&#r06
+			left: 180px
+			top: 280px
+		&#r07
+			left: 0px
+			top: 310px
+		&#r08
+			left: 240px
+			top: 310px
+		&#r09
+			left: 120px
+			top: 290px
+		&#r10
+			left: 0px
+			top: 85px
+		&#r11
+			left: 240px
+			top: 85px
+		&#r12
+			left: 120px
+			top: 30px
+	.astar_compatability
+		.tcard#r05
+			top: 300px
+
+
+/* XS */
 @media (max-width: 767px)
 	#dainput
 		padding-bottom: 0
 	#dainput select, #dainput input
 		font-size: 16px
-	.btn_filter .axis
-		font-size: 14px
-		margin-right: 10px
-	.mscale
-		width: 350px
-		height: 400px
-		.astar
-			transform: scale(.5)
-			top: 0
-			left: 0
-			margin: -50%
-
 	.results
 		margin-top: 100px
+	.mscale
+		width: 150px
+		height: 370px
+
+	.tcard
+		padding: 5px 2px
+		width: 28px
+		height: 65px
+		.ordernumber
+			left: 4px
+			top: 5px
+			font-size: 5px
+		.romulus
+			font-size: 7px
+			font-weight: bold
+		.rstring
+			font-size: 5px
+		.cimg
+			width: 19px
+			height: 33px
+		&#r01
+			left: 30px
+			top: 110px
+		&#r02
+			left: 60px
+			top: 100px
+		&#r03
+			left: 90px
+			top: 110px
+		&#r04
+			left: 30px
+			top: 180px
+		&#r05
+			left: 60px
+			top: 270px
+		&#r06
+			left: 90px
+			top: 180px
+		&#r07
+			left: 0px
+			top: 210px
+		&#r08
+			left: 120px
+			top: 210px
+		&#r09
+			left: 60px
+			top: 200px
+		&#r10
+			left: 0px
+			top: 85px
+		&#r11
+			left: 120px
+			top: 85px
+		&#r12
+			left: 60px
+			top: 30px
+
+

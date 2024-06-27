@@ -35,11 +35,11 @@
 			<h1> Калькулятор совместимости </h1>
 
 			<!-- input -->
-			<section id="dainput" class="my-0">
+			<section class="dainput my-0">
 
 				<div class="row g-4 mb-4">
 
-					<div class="col-lg-4 mb-2">
+					<div class="col-md-4 mb-2">
 						<h6>Выберите дату рождения Персоны 1:</h6>
 						<div class="d-flex mb-3">
 							<div class="inputWrapper">
@@ -56,15 +56,14 @@
 							</div>
 						</div>
 
-						<div class="inputWrapper">
+						<!-- <div class="inputWrapper">
 								<label>Имя 1</label><br>
 								<input class="form-input w-100" id="persona1" type="text" placeholder="Персона 1" />
-						</div>
+						</div> -->
 
 					</div>
-					<div class="col-lg-2"></div>
 
-					<div class="col-lg-4 mb-2">
+					<div class="col-md-4 offset-md-2 mb-2">
 						<h6>Выберите дату рождения Персоны 2:</h6>
 						<div class="d-flex mb-3">
 							<div class="inputWrapper">
@@ -82,20 +81,18 @@
 
 						</div>
 
-						<div class="inputWrapper">
+						<!-- <div class="inputWrapper">
 								<label>Имя 2</label><br>
 								<input class="form-input w-100" id="persona2" type="text" placeholder="Персона 2" />
-						</div>
+						</div> -->
 
 					</div>
-					<div class="col-lg-2"></div>
 
-					<div class="col-lg-6 text-center offset-lg-3">
+					<div class="col-lg-4 text-center offset-lg-3">
 						<button class="calculate " onclick="calculateSum()">Рассчитать совместимость
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M6.47998 20.3137L14.9325 11.9999L6.47998 3.68606L7.78534 2.3999L17.52 12.0047L7.78534 21.5999L6.47998 20.3137Z" fill="black"/> </svg>
 						</button>
 					</div>
-
 
 				</div>
 
@@ -104,309 +101,308 @@
 
 			<!-- level_o1 -->
 			<section id="level_01" class="">
-				<div class="container">
+				<div class="row">
 
-					<div class="row">
+					<!-- USER 1 -->
+					<div class="col-6">
+						<div class="mscale mx-auto ">
+							<div class="astar">
 
-						<!-- USER 1 -->
-						<div class="col-lg-6 mb-5">
-							<div class="mscale">
-								<div class="astar">
+								<h2 id="name1">Персона 1</h2>
 
-									<h2 id="name1">Персона 1</h2>
+								<img src="img/level_00.svg" alt="" class="img-fluid bg-sun">
 
-									<img src="img/level_01.svg" alt="">
-
-									<div class="tcard" id="r01">
-										<div class="ordernumber">1</div>
-										<div class="romulus" id="u1rr01">—</div>
-										<div><img id="u1ri01" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs01">—</div>
-									</div>
-
-									<div class="tcard" id="r02">
-										<div class="ordernumber">2</div>
-										<div class="romulus" id="u1rr02">—</div>
-										<div><img id="u1ri02" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs02">—</div>
-									</div>
-
-									<div class="tcard" id="r03">
-										<div class="ordernumber">3</div>
-										<div class="romulus" id="u1rr03">—</div>
-										<div><img id="u1ri03" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs03">—</div>
-									</div>
-
-									<div class="tcard" id="r04">
-										<div class="ordernumber">4</div>
-										<div class="romulus" id="u1rr04">—</div>
-										<div><img id="u1ri04" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs04">—</div>
-									</div>
-
-									<div class="tcard" id="r05">
-										<div class="ordernumber">5</div>
-										<div class="romulus" id="u1rr05">—</div>
-										<div><img id="u1ri05" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs05">—</div>
-									</div>
-
-									<div class="tcard" id="r06">
-										<div class="ordernumber">6</div>
-										<div class="romulus" id="u1rr06">—</div>
-										<div><img id="u1ri06" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs06">—</div>
-									</div>
-
-									<div class="tcard" id="r07">
-										<div class="ordernumber">7</div>
-										<div class="romulus" id="u1rr07">—</div>
-										<div><img id="u1ri07" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs07">—</div>
-									</div>
-
-									<div class="tcard" id="r08">
-										<div class="ordernumber">8</div>
-										<div class="romulus" id="u1rr08">—</div>
-										<div><img id="u1ri08" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs08">—</div>
-									</div>
-
-									<div class="tcard" id="r09">
-										<div class="ordernumber">9</div>
-										<div class="romulus" id="u1rr09">—</div>
-										<div><img id="u1ri09" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs09">—</div>
-									</div>
-
-									<div class="tcard" id="r10">
-										<div class="ordernumber">10</div>
-										<div class="romulus" id="u1rr10">—</div>
-										<div><img id="u1ri10" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs10">—</div>
-									</div>
-
-									<div class="tcard" id="r11">
-										<div class="ordernumber">11</div>
-										<div class="romulus" id="u1rr11">—</div>
-										<div><img id="u1ri11" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs11">—</div>
-									</div>
-
-									<div class="tcard" id="r12">
-										<div class="ordernumber">12</div>
-										<div class="romulus" id="u1rr12">—</div>
-										<div><img id="u1ri12" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u1rs12">—</div>
-									</div>
-
+								<div class="tcard" id="r01">
+									<div class="ordernumber">1</div>
+									<div class="romulus" id="u1rr01">—</div>
+									<div><img id="u1ri01" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs01">—</div>
 								</div>
-							</div>
 
-						</div>
-
-						<!-- USER 2 -->
-						<div class="col-lg-6 mb-5">
-							<div class="mscale">
-								<div class="astar">
-
-									<h2 id="name2">Персона 2</h2>
-
-									<img src="img/level_02.svg" alt="">
-
-									<div class="tcard" id="r01">
-										<div class="ordernumber">1</div>
-										<div class="romulus" id="u2rr01">—</div>
-										<div><img id="u2ri01" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs01">—</div>
-									</div>
-
-									<div class="tcard" id="r02">
-										<div class="ordernumber">2</div>
-										<div class="romulus" id="u2rr02">—</div>
-										<div><img id="u2ri02" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs02">—</div>
-									</div>
-
-									<div class="tcard" id="r03">
-										<div class="ordernumber">3</div>
-										<div class="romulus" id="u2rr03">—</div>
-										<div><img id="u2ri03" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs03">—</div>
-									</div>
-
-									<div class="tcard" id="r04">
-										<div class="ordernumber">4</div>
-										<div class="romulus" id="u2rr04">—</div>
-										<div><img id="u2ri04" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs04">—</div>
-									</div>
-
-									<div class="tcard" id="r05">
-										<div class="ordernumber">5</div>
-										<div class="romulus" id="u2rr05">—</div>
-										<div><img id="u2ri05" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs05">—</div>
-									</div>
-
-									<div class="tcard" id="r06">
-										<div class="ordernumber">6</div>
-										<div class="romulus" id="u2rr06">—</div>
-										<div><img id="u2ri06" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs06">—</div>
-									</div>
-
-									<div class="tcard" id="r07">
-										<div class="ordernumber">7</div>
-										<div class="romulus" id="u2rr07">—</div>
-										<div><img id="u2ri07" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs07">—</div>
-									</div>
-
-									<div class="tcard" id="r08">
-										<div class="ordernumber">8</div>
-										<div class="romulus" id="u2rr08">—</div>
-										<div><img id="u2ri08" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs08">—</div>
-									</div>
-
-									<div class="tcard" id="r09">
-										<div class="ordernumber">9</div>
-										<div class="romulus" id="u2rr09">—</div>
-										<div><img id="u2ri09" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs09">—</div>
-									</div>
-
-									<div class="tcard" id="r10">
-										<div class="ordernumber">10</div>
-										<div class="romulus" id="u2rr10">—</div>
-										<div><img id="u2ri10" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs10">—</div>
-									</div>
-
-									<div class="tcard" id="r11">
-										<div class="ordernumber">11</div>
-										<div class="romulus" id="u2rr11">—</div>
-										<div><img id="u2ri11" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs11">—</div>
-									</div>
-
-									<div class="tcard" id="r12">
-										<div class="ordernumber">12</div>
-										<div class="romulus" id="u2rr12">—</div>
-										<div><img id="u2ri12" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u2rs12">—</div>
-									</div>
-
+								<div class="tcard" id="r02">
+									<div class="ordernumber">2</div>
+									<div class="romulus" id="u1rr02">—</div>
+									<div><img id="u1ri02" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs02">—</div>
 								</div>
+
+								<div class="tcard" id="r03">
+									<div class="ordernumber">3</div>
+									<div class="romulus" id="u1rr03">—</div>
+									<div><img id="u1ri03" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs03">—</div>
+								</div>
+
+								<div class="tcard" id="r04">
+									<div class="ordernumber">4</div>
+									<div class="romulus" id="u1rr04">—</div>
+									<div><img id="u1ri04" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs04">—</div>
+								</div>
+
+								<div class="tcard" id="r05">
+									<div class="ordernumber">5</div>
+									<div class="romulus" id="u1rr05">—</div>
+									<div><img id="u1ri05" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs05">—</div>
+								</div>
+
+								<div class="tcard" id="r06">
+									<div class="ordernumber">6</div>
+									<div class="romulus" id="u1rr06">—</div>
+									<div><img id="u1ri06" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs06">—</div>
+								</div>
+
+								<div class="tcard" id="r07">
+									<div class="ordernumber">7</div>
+									<div class="romulus" id="u1rr07">—</div>
+									<div><img id="u1ri07" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs07">—</div>
+								</div>
+
+								<div class="tcard" id="r08">
+									<div class="ordernumber">8</div>
+									<div class="romulus" id="u1rr08">—</div>
+									<div><img id="u1ri08" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs08">—</div>
+								</div>
+
+								<div class="tcard" id="r09">
+									<div class="ordernumber">9</div>
+									<div class="romulus" id="u1rr09">—</div>
+									<div><img id="u1ri09" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs09">—</div>
+								</div>
+
+								<div class="tcard" id="r10">
+									<div class="ordernumber">10</div>
+									<div class="romulus" id="u1rr10">—</div>
+									<div><img id="u1ri10" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs10">—</div>
+								</div>
+
+								<div class="tcard" id="r11">
+									<div class="ordernumber">11</div>
+									<div class="romulus" id="u1rr11">—</div>
+									<div><img id="u1ri11" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs11">—</div>
+								</div>
+
+								<div class="tcard" id="r12">
+									<div class="ordernumber">12</div>
+									<div class="romulus" id="u1rr12">—</div>
+									<div><img id="u1ri12" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u1rs12">—</div>
+								</div>
+
 							</div>
 						</div>
 
 					</div>
 
-					<div class="results"></div>
+					<!-- USER 2 -->
+					<div class="col-6">
+						<div class="mscale mx-auto">
+							<div class="astar">
 
-					<div class="row">
+								<h2 id="name2">Персона 2</h2>
 
-						<!-- COMPATABILITY -->
-						<div class="col-lg-6 offset-lg-3">
-							<div class="mscale">
-								<div class="astar">
+								<img src="img/level_00.svg" alt="" class="img-fluid bg-sun">
 
-								<h2>Результат</h2>
-
-									<img src="img/level_03.svg" alt="">
-
-									<div class="tcard" id="r01">
-										<div class="ordernumber">1</div>
-										<div class="romulus" id="u3rr01">—</div>
-										<div><img id="u3ri01" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs01">—</div>
-									</div>
-
-									<div class="tcard" id="r02">
-										<div class="ordernumber">2</div>
-										<div class="romulus" id="u3rr02">—</div>
-										<div><img id="u3ri02" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs02">—</div>
-									</div>
-
-									<div class="tcard" id="r03">
-										<div class="ordernumber">3</div>
-										<div class="romulus" id="u3rr03">—</div>
-										<div><img id="u3ri03" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs03">—</div>
-									</div>
-
-									<div class="tcard" id="r04">
-										<div class="ordernumber">4</div>
-										<div class="romulus" id="u3rr04">—</div>
-										<div><img id="u3ri04" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs04">—</div>
-									</div>
-
-									<div class="tcard" id="r05">
-										<div class="ordernumber">5</div>
-										<div class="romulus" id="u3rr05">—</div>
-										<div><img id="u3ri05" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs05">—</div>
-									</div>
-
-									<div class="tcard" id="r06">
-										<div class="ordernumber">6</div>
-										<div class="romulus" id="u3rr06">—</div>
-										<div><img id="u3ri06" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs06">—</div>
-									</div>
-
-									<div class="tcard" id="r07">
-										<div class="ordernumber">7</div>
-										<div class="romulus" id="u3rr07">—</div>
-										<div><img id="u3ri07" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs07">—</div>
-									</div>
-
-									<div class="tcard" id="r08">
-										<div class="ordernumber">8</div>
-										<div class="romulus" id="u3rr08">—</div>
-										<div><img id="u3ri08" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs08">—</div>
-									</div>
-
-									<div class="tcard d-none" id="r09">
-										<div class="ordernumber">9</div>
-										<div class="romulus" id="u3rr09">—</div>
-										<div><img id="u3ri09" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs09">—</div>
-									</div>
-
-									<div class="tcard d-none" id="r10">
-										<div class="ordernumber">10</div>
-										<div class="romulus" id="u3rr10">—</div>
-										<div><img id="u3ri10" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs10">—</div>
-									</div>
-
-									<div class="tcard d-none" id="r11">
-										<div class="ordernumber">11</div>
-										<div class="romulus" id="u3rr11">—</div>
-										<div><img id="u3ri11" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs11">—</div>
-									</div>
-
-									<div class="tcard" id="r12">
-										<div class="ordernumber">12</div>
-										<div class="romulus" id="u3rr12">—</div>
-										<div><img id="u3ri12" src="img/card.jpg" class="cimg"></div>
-										<div class="rstring" id="u3rs12">—</div>
-									</div>
-
+								<div class="tcard" id="r01">
+									<div class="ordernumber">1</div>
+									<div class="romulus" id="u2rr01">—</div>
+									<div><img id="u2ri01" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs01">—</div>
 								</div>
+
+								<div class="tcard" id="r02">
+									<div class="ordernumber">2</div>
+									<div class="romulus" id="u2rr02">—</div>
+									<div><img id="u2ri02" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs02">—</div>
+								</div>
+
+								<div class="tcard" id="r03">
+									<div class="ordernumber">3</div>
+									<div class="romulus" id="u2rr03">—</div>
+									<div><img id="u2ri03" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs03">—</div>
+								</div>
+
+								<div class="tcard" id="r04">
+									<div class="ordernumber">4</div>
+									<div class="romulus" id="u2rr04">—</div>
+									<div><img id="u2ri04" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs04">—</div>
+								</div>
+
+								<div class="tcard" id="r05">
+									<div class="ordernumber">5</div>
+									<div class="romulus" id="u2rr05">—</div>
+									<div><img id="u2ri05" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs05">—</div>
+								</div>
+
+								<div class="tcard" id="r06">
+									<div class="ordernumber">6</div>
+									<div class="romulus" id="u2rr06">—</div>
+									<div><img id="u2ri06" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs06">—</div>
+								</div>
+
+								<div class="tcard" id="r07">
+									<div class="ordernumber">7</div>
+									<div class="romulus" id="u2rr07">—</div>
+									<div><img id="u2ri07" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs07">—</div>
+								</div>
+
+								<div class="tcard" id="r08">
+									<div class="ordernumber">8</div>
+									<div class="romulus" id="u2rr08">—</div>
+									<div><img id="u2ri08" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs08">—</div>
+								</div>
+
+								<div class="tcard" id="r09">
+									<div class="ordernumber">9</div>
+									<div class="romulus" id="u2rr09">—</div>
+									<div><img id="u2ri09" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs09">—</div>
+								</div>
+
+								<div class="tcard" id="r10">
+									<div class="ordernumber">10</div>
+									<div class="romulus" id="u2rr10">—</div>
+									<div><img id="u2ri10" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs10">—</div>
+								</div>
+
+								<div class="tcard" id="r11">
+									<div class="ordernumber">11</div>
+									<div class="romulus" id="u2rr11">—</div>
+									<div><img id="u2ri11" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs11">—</div>
+								</div>
+
+								<div class="tcard" id="r12">
+									<div class="ordernumber">12</div>
+									<div class="romulus" id="u2rr12">—</div>
+									<div><img id="u2ri12" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u2rs12">—</div>
+								</div>
+
 							</div>
 						</div>
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<!-- COMPATABILITY -->
+					<div class="col-6 dainput py-0">
+						<h2>Результат: <br> <span id="resultname1"></span> <span id="resultname2"></span> </h2>
+						<div class="inputWrapper">
+							<input class="form-input w-100" id="personas" type="text" placeholder="Имя" />
+						</div>
+					</div>
+
+					<div class="col-6">
+						<div class="mscale mx-auto">
+							<div class="astar astar_compatability">
 
 
+								<img src="img/level_00.svg" alt="" class="img-fluid bg-sun">
+
+								<div class="tcard" id="r01">
+									<div class="ordernumber">1</div>
+									<div class="romulus" id="u3rr01">—</div>
+									<div><img id="u3ri01" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs01">—</div>
+								</div>
+
+								<div class="tcard" id="r02">
+									<div class="ordernumber">2</div>
+									<div class="romulus" id="u3rr02">—</div>
+									<div><img id="u3ri02" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs02">—</div>
+								</div>
+
+								<div class="tcard" id="r03">
+									<div class="ordernumber">3</div>
+									<div class="romulus" id="u3rr03">—</div>
+									<div><img id="u3ri03" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs03">—</div>
+								</div>
+
+								<div class="tcard" id="r04">
+									<div class="ordernumber">4</div>
+									<div class="romulus" id="u3rr04">—</div>
+									<div><img id="u3ri04" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs04">—</div>
+								</div>
+
+								<div class="tcard" id="r05">
+									<div class="ordernumber">5</div>
+									<div class="romulus" id="u3rr05">—</div>
+									<div><img id="u3ri05" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs05">—</div>
+								</div>
+
+								<div class="tcard" id="r06">
+									<div class="ordernumber">6</div>
+									<div class="romulus" id="u3rr06">—</div>
+									<div><img id="u3ri06" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs06">—</div>
+								</div>
+
+								<div class="tcard" id="r07">
+									<div class="ordernumber">7</div>
+									<div class="romulus" id="u3rr07">—</div>
+									<div><img id="u3ri07" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs07">—</div>
+								</div>
+
+								<div class="tcard" id="r08">
+									<div class="ordernumber">8</div>
+									<div class="romulus" id="u3rr08">—</div>
+									<div><img id="u3ri08" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs08">—</div>
+								</div>
+
+								<div class="tcard d-none" id="r09">
+									<div class="ordernumber">9</div>
+									<div class="romulus" id="u3rr09">—</div>
+									<div><img id="u3ri09" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs09">—</div>
+								</div>
+
+								<div class="tcard d-none" id="r10">
+									<div class="ordernumber">10</div>
+									<div class="romulus" id="u3rr10">—</div>
+									<div><img id="u3ri10" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs10">—</div>
+								</div>
+
+								<div class="tcard d-none" id="r11">
+									<div class="ordernumber">11</div>
+									<div class="romulus" id="u3rr11">—</div>
+									<div><img id="u3ri11" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs11">—</div>
+								</div>
+
+								<div class="tcard" id="r12">
+									<div class="ordernumber">12</div>
+									<div class="romulus" id="u3rr12">—</div>
+									<div><img id="u3ri12" src="img/card.jpg" class="cimg"></div>
+									<div class="rstring" id="u3rs12">—</div>
+								</div>
+
+							</div>
+						</div>
 					</div>
 
 
